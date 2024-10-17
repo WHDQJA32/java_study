@@ -1,4 +1,4 @@
-package practice;
+package study.practice;
 
 public class practice01 {
 
@@ -7,8 +7,7 @@ public class practice01 {
 		
 		int mouth;
 		
-		int day;
-		day = 1;
+		int day = 1;
 		
 		mouth = 8;
 		day = 29;
@@ -25,7 +24,7 @@ public class practice01 {
 		//6. 다음중 변수명으로 사용할 수 있는 것은?
 		사용할 수 없는 경우 : 잘못된 사유를 옆에 함께 작성
 		사용할 수 있으나 잘못된 부분이 있으면 해당 사유를 함께 작성
-		a. $ystem       o 
+		a. $ystem       o
 		b. channel#112	x 특수문자
 		c. 7eleven		x 숫자로 시작
 		d. newmember	o newMember
@@ -37,7 +36,7 @@ public class practice01 {
 		a. int b = 255;         o
 		b. String s = "T";		o
 		c. char answer = 'no';	x char는 n,o 하나만 사용
-		d. char flag = 'F'; 	o 
+		d. char flag = 'F'; 	o
 
 		//8. 다음 정수형 타입들 중에서 자바가 정수형 값을 만났을때 가장 기본적(대표적)으로 인식하는 변수 타입은?
 		a. char
