@@ -35,8 +35,10 @@ public class quiz01 {
 		int value2 = Integer.parseInt(artScore);
 		
 		System.out.println(value + value1 + value2);
+		
 		// int total = value + value1 + value2;
 		// System.out.println("총점 :" + total); 또 다른 방법 good
+		
 		int num1 = 4;
 		int num2 = 10;
 		double num3 = (double)num1 / (double)num2;
