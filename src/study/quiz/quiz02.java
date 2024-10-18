@@ -28,7 +28,8 @@ public class quiz02 {
 		System.out.println("더하기 :" + point1 + "+" + point2 + "=" + (point1+point2));
 		System.out.printf("빼기 : %d-%d=%d\n", point1, point2, point1-point2);
 		System.out.printf("곱하기 : %d*%d=%d\n", point1, point2, point1*point2);
-		System.out.printf("나누기 : %d/%d=%d\n", point1, point2, (double)point1/point2);
+		System.out.printf("나누기 : %d/%d=%.1f\n", point1, point2, (double)point1/point2);
+										//실수는 %.소수점자리f
 	}
 
 }
