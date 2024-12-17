@@ -3,7 +3,8 @@ package study.quiz;
 public class SalaryMan {
 	
 //	다음을 만족하는 클래스 SalaryMan 을 작성하시오.
-//	· 필드 salary 는 월 급여액를 저장하며, int 형으로 초기 값으로 1000000 저장
+//	· 필드 salary 는 월 급여액를 저장하며, int 형으로 초기 값으로 1000000
+//	저장
 	
     int salary;
 
