@@ -6,14 +6,14 @@ public class Hello {
 		
 		// TODO Auto-generated method stub
 		
-		System.out.println("hello, Java");
+		 System.out.println("Hello, Java");
+		 
+		 //주석
+		 /*
+		  * 단축키 : Ctrl + /
+		  *        Ctrl + Shift + c
+		 */	
 		
-		//주석
-		/* 여러 줄 주석
-		//단축키 : Ctrl + /
-		//		 Ctrl + Shift + C
-		*/
-	
 	}
 
 }

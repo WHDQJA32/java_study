@@ -1,17 +1,18 @@
 package study.practice.practice18;
 
 public class Circle {
-	
-	int raidus;
-	double getArea;
-	
-	//Circle(){} 기본 생성자 안만들어도된다.
 
-	public void setRadius(int radius) {
-		this.raidus = radius;
+	int radius; //반지름
+	
+	//Circle(){}
+	
+	void setRadius(int radius) {
+		this.radius = radius;
 	}
+	
 	double getArea() {
-		return raidus*raidus*3.14;
+//		double area = radius * radius * 3.14;
+//		return area;
+		return radius * radius * 3.14;
 	}
 }
-

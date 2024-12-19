@@ -14,8 +14,8 @@ public class CarMain {
 		car2.color = "파랑";
 		System.out.println(car2.color);
 		
-		System.out.println(car3.price);
 		System.out.println(car3.color);
+		System.out.println(car3.price);
 		
 		System.out.println("main 끝");
 		
@@ -24,10 +24,12 @@ public class CarMain {
 		Car car4 = new Car("모닝");
 		System.out.println(car4.model);
 		System.out.println(car4.color);
-			
+		
 		Car car5 = new Car("캐스퍼", "회색");
 		System.out.println(car5.model);
-		System.out.println(car5.color);	
+		System.out.println(car5.color);
+		
 	}
+	
 
 }

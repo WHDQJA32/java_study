@@ -7,8 +7,8 @@ public class StudentMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int n = 10;
-		int [] arr = new int[3];
-		//클래스 //인스턴스 객체
+		int[] arr = new int[3];
+		
 		Student stu1 = null;
 		stu1 = new Student();
 		
@@ -24,6 +24,13 @@ public class StudentMain {
 		
 		stu1.grade = 3;
 		stu2.grade = 5;
+		
+		String name;
+		name = "변경";
+		
+		stu1.phone = "12313";
+		stu1.studentNumber = "sodijfo";
+		
 	}
 
 }

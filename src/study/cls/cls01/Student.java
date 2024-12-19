@@ -8,6 +8,20 @@ public class Student {
 	int grade;
 	String phone;
 	String studentNumber;
-	
-	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 

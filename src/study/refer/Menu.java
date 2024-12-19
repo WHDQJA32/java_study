@@ -1,7 +1,7 @@
 package study.refer;
 
 public enum Menu {
-	JJM,
+	JJA,
 	JMP,
 	TSU
 }

@@ -2,11 +2,12 @@ package study.cls.cls05.pack1;
 
 public class Food {
 
-	int id;
-	String name;
-	String content;
-	int price;
-	String imgPath;
+	public int id;
+	public String name;
+	public String content;
+	public int price;
+	public String imgPath;
+	
 	public int getId() {
 		return id;
 	}
@@ -37,5 +38,7 @@ public class Food {
 	public void setImgPath(String imgPath) {
 		this.imgPath = imgPath;
 	}
+	
+	
 	
 }

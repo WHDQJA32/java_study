@@ -1,33 +1,64 @@
 package study.quiz;
 
-public class quiz04 {
+public class Quiz04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// int[][] nArr1 = { {1,2,3}, {4,5,6} }; 인덱스 값 직접 넣는방법
+		int[][] arr = new int[5][5];
 		
-		int nArr1[][] = new int[5][5]; //인덱스 구성 선언
-			
-			for(int i=0; i<nArr1.length; i++) {
-				for(int j=0; j<nArr1[i].length; j++) {
-					
-					//for(int i=0; i<5; i++) { i: 0~4
-						//for(int j=0; j<5; j++) { j: 0~4
-				
-				if(i == j) {
-					nArr1[i][j] = 1;
-				}else if (i > j) {
-					nArr1[i][j] = 3;
-				}else
-					nArr1[i][j] = 2;
-				
-				System.out.print(nArr1[i][j]+" ");
-				
-			}System.out.println();
-	
+		// 기본값 : 0
+		
+		//저장
+		for(int i=0; i<5; i++) {
+			//i: 0~4
+			for(int j=0; j<5; j++) {
+				//j: 0~4
+				if(i>j) {
+					arr[i][j] = 3;
+				} else if (i<j) {
+					arr[i][j] = 2;
+				} else {
+					arr[i][j] = 1;
+				}
+			}
 		}
+		
+		//출력
+		for(int i=0; i<5; i++) {
+			//i: 0~4
+			for(int j=0; j<5; j++) {
+				//j: 0~4
+				System.out.print(arr[i][j] + " ");
+			}
+			System.out.println();
+		}
+		
+		/*
+		for(int i=1;i<=5;i++) {// i:				 1 2 3 4 5
+				 
+			for(int j=1;j<=i-1;j++) {  //j:1 j<=i-1; 0 1 2 3 4
+				System.out.print("3 ");//		     0 1 2 3 4
+			}
+			
+			System.out.print("1 ");  //1 한개 출력
+			
+			
+			for(int j=4-i;j>=0;j--) { //j:4-i j>=0;  3 2 1 0 -1
+				System.out.print("2 ");//			 4 3 2 1 0 	
+			}
+			System.out.println();
+		}
+		*/
 		
 	}
 
 }
+
+
+
+
+
+
+
+

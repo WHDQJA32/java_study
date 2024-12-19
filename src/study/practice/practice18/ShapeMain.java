@@ -1,10 +1,10 @@
 package study.practice.practice18;
 
+
 public class ShapeMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Circle circle = new Circle();
 		circle.setRadius(5);
 		System.out.println("넓이 : " + circle.getArea());
@@ -18,6 +18,5 @@ public class ShapeMain {
 		tri.setSize(6, 8);
 		System.out.println("넓이 : " + tri.getArea());
 		//삼각형 : 밑변 * 높이 / 2
-
 	}
 }

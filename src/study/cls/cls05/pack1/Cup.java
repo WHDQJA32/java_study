@@ -4,11 +4,15 @@ public class Cup {
 	
 	private String type;
 	
-	Cup(){
+	private Cup(){
 		
 	}
 	
+	public Cup(String type) {
+		this.type = type;
+	}
+	
 	public void method() {
-		System.out.println("pack1.Cup method()111");
+		System.out.println("pack1.Cup method() 111");
 	}
 }

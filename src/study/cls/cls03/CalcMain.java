@@ -14,20 +14,19 @@ public class CalcMain {
 		
 		c2.powerOn();
 		
-		c1.setOwner("내이름");  //return void
+		c1.setOwner("내이름");	//return void
 		
 		c2.setOwner("너이름");
 		
 		double result1 = c1.divide(10, 5);
 		System.out.println(result1);
 		
-		System.out.println(c2.divide(3, 2));
-	
-	
+		System.out.println( c2.divide(3, 2) );
+		
 		String result2 = c1.madeByInfo();
 		System.out.println(result2);
 		
-		System.out.println(c2.madeByInfo());
+		System.out.println( c2.madeByInfo() );
 	}
 
 }

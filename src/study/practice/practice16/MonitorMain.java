@@ -4,7 +4,10 @@ public class MonitorMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-/*
+
+		
+
+		/*
 		//다음 가이드에 따라 클래스를 선언하고, 클래스 인스턴스를 생성하세요.
 		//생성한 클래스 변수의 값들을 차례대로 출력하는 메소드를 구현하여 호출하세요.
 
@@ -27,12 +30,31 @@ public class MonitorMain {
 		//실행 시 아래와 같은 형태로 출력이 나와야합니다.
 		제조사:삼성 모델명:더프레임 인치:65인치
 		제조사:LG 모델명:올레드 인치:80인치
-*/
+		*/
+		
 		Monitor m1 = new Monitor(65, "삼성", "더프레임");
 		Monitor m2 = new Monitor(80, "LG", "올레드");
 		
-		m1.printInto(); //메소드 불러오기.
-		m2.printInto();
+		System.out.println("[모니터정보] 제조사:" + m1.company + " 모델명:"+m1.model + " 인치:"+m1.inch + "인치" );
+		System.out.println("[모니터정보] 제조사:" + m2.company + " 모델명:"+m2.model + " 인치:"+m2.inch + "인치" );
+		
+		m1.printInfo();
+		m2.printInfo();
+		
+		
+//		Monitor m3 = new Monitor();
+//		m3.printInfo("삼성", "더프레임", 99);
+//		m1.printInfo("LG", "올레드", 120);
+		
+		
 	}
 
 }
+
+
+
+
+
+
+
+
