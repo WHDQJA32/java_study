@@ -1,4 +1,4 @@
-package study.quiz.Quiz08;
+package study.quiz.quiz08;
 
 import java.util.ArrayList;
 import java.util.List;

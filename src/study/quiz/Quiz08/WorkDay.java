@@ -1,4 +1,4 @@
-package study.quiz.Quiz08;
+package study.quiz.quiz08;
 
 public class WorkDay extends WorkMonth{
 	
