@@ -11,12 +11,12 @@ public class SetMain {
 		
 		//숫자들을 set 사용하고 싶으면?
 		//Wrapper Class
-		// int -> Integer
+		//  int   -> Integer
 		// double -> Double
 		
-		// String 은 참조타입변수라서 그래도 쓸수 있다.
+		//123183993852759123784123
 		
-		Set<String> set1 = new HashSet<String>();
+		Set<String> set1= new HashSet<String>();
 		Set<Integer> set2 = new HashSet<Integer>();
 		
 		System.out.println(set1.size());
@@ -27,7 +27,7 @@ public class SetMain {
 		set1.add("C");
 		
 		System.out.println(set1.size());
-		//중복값은 포함하지않는다.
+		
 		set1.add("C");
 		set1.add("C");
 		set1.add("C");
@@ -37,13 +37,14 @@ public class SetMain {
 		set1.add("F");
 		set1.add("H");
 		set1.add("A");
+		set1.add("B");
 		
 		System.out.println(set1.size());
 		
 		Iterator<String> i1 = set1.iterator();
 		
-//		i1.hasnext() 다음 값이 존재하는지 확인
-//		i1.next() 다음 값 읽어오기
+		// i1.hasNext() 다음 값이 존재하는지 확인
+		// i1.next() 다음 값 읽어오기 
 		while(i1.hasNext()) {
 			String n = i1.next();
 			System.out.println(n);

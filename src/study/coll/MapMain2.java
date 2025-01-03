@@ -18,24 +18,18 @@ public class MapMain2 {
 		map.put("김하나", s1);
 		map.put("정둘", new Score(80, 60, 40));
 		
-		
 		System.out.println(map.get("정둘"));
-		System.out.println(map.get("정둘").getMath());
-		System.out.println(map.get("김하나").getEng());
+		System.out.println( map.get("정둘").getMath() );
+		System.out.println( map.get("김하나").getEng() );
 	}
-
 }
 
-class Score{
+
+class Score {
 	int math;
 	int eng;
 	int lang;
 	
-	@Override
-	public String toString() {
-		return "Score [math=" + math + ", eng=" + eng + ", lang=" + lang + "]";
-	}
-
 	public Score() {}
 	
 	public Score(int math, int eng, int lang) {
@@ -44,6 +38,7 @@ class Score{
 		this.eng = eng;
 		this.lang = lang;
 	}
+	
 	public int getMath() {
 		return math;
 	}
@@ -63,4 +58,11 @@ class Score{
 		this.lang = lang;
 	}
 
+	@Override
+	public String toString() {
+		return "Score [math=" + math + ", eng=" + eng + ", lang=" + lang + "]";
+	}
+	
+		
+	
 }
