@@ -1,5 +1,6 @@
 package study.practice.practice32;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PracticeMain {
@@ -30,6 +31,18 @@ public class PracticeMain {
 		for(StudentDTO s : list2) {
 			System.out.println(s);
 		}
+		
+		List<StudentDTO> saveList = new ArrayList<StudentDTO>();
+		saveList.add(new StudentDTO(23, "김종범", "김종범2", 1, "9206150000000", "2000-05-31", "123222-2222", 20, 20, 20, 20, 20));
+		
+		int count = 0;
+		for(StudentDTO s : saveList) {
+			int result = studentDAO.saveStudent(s);
+			count += result;
+			if(result > 0) 
+				System.out.println("저장 잘됨");
+		}
+		System.out.println("총 " + count + "개 저장됨");
 	}
 
 }
